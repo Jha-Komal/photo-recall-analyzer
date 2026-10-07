@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, MessageSquareText, Lightbulb, FileText, Sparkles, ScanSearch } from "lucide-react";
+import { LayoutDashboard, MessageSquareText, Lightbulb, FileText, ScanSearch } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { GlossaryModal } from "@/components/shared/GlossaryModal";
 
@@ -11,7 +11,6 @@ const NAV_ITEMS = [
   { href: "/episodes", label: "Episodes", icon: MessageSquareText },
   { href: "/insights", label: "Insights", icon: Lightbulb },
   { href: "/research-report", label: "Research Report", icon: FileText },
-  { href: "/mvp", label: "MVP (Part 5)", icon: Sparkles },
   { href: "/mvp-photo", label: "Memory Trail", icon: ScanSearch },
 ];
 
